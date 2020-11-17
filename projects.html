@@ -19,7 +19,7 @@
 <div class="menu-item"><a href="https://www.notion.so/Research-on-Cyber-Security-599d8320143349fe80f0aa10b3854517">Cyber&nbsp;Security</a></div>
 <div class="menu-item"><a href="https://www.notion.so/Research-on-Network-Control-a3db3606f4534e7da8627b5f0a886243">Networked&nbsp;Control</a></div>
 <div class="menu-category">Projects &amp; Publication</div>
-<div class="menu-item"><a href="projects.html">Projects</a></div>
+<div class="menu-item"><a href="projects.html" class="current">Projects</a></div>
 <div class="menu-item"><a href="publication.html">Publication</a></div>
 <div class="menu-category">Healthy Life Style</div>
 <div class="menu-item"><a href="travel.html">Travel</a></div>
@@ -31,80 +31,47 @@
 <div id="toptitle">
 <h1>Projects</h1>
 </div>
-<h2><a href="https://intelligentsystems.eee.ntu.edu.sg/cpisrg/smart_manufacturing/SMS.html">Scheduling of Manufaturing Systems</a></h2>
+<h2>Scheduling of Manufaturing Systems <a href="https://intelligentsystems.eee.ntu.edu.sg/cpisrg/smart_manufacturing/SMS.html">Find here</a></h2>
+<table class="imgtable"><tr><td>
+<img src="./impactlinephaseone.jpg" alt="impactlinephaseone" width="600px" height="260px" />&nbsp;</td>
+<td align="left"></td></tr></table>
 <div class="infoblock">
 <div class="blockcontent">
-<p>~&nbsp;&nbsp;
-Establishing 3D components models of the production system, such as robots, conveyors, sensors, and process machines in the Visual Components simulation environment. 
+<p>Establishing 3D components models of the production system, such as robots, conveyors, sensors, and process machines in the Visual Components simulation environment. 
 Then the reconfigurable controller of the manufacturing line system based on the discrete event framework will be applied on it to verify the correctness of the controller 
 and evaluate the system's performance for the scheduled production order. Under the ideal situation, all the raw materials in the manufacturing line systems are supposed to be infinite.
 But in reality, it needs the help of materials handling system and (AGV) Automatically Guided Vehicle fleet management system to complete the supply, this part can be implemented in the 
 simulated system as well. Our team members already had the preliminary results about the simulation of a mini-line assembling system and tested the connection with the controller generated 
-software according to the product work plan.
-~&nbsp;&nbsp;</p>
+software according to the product work plan.</p>
 </div></div>
-<p>All arguments may be left blank, though you should specify an image filename,
-and alt text should be descriptive for reasons like
-<a href="http://en.wikipedia.org/wiki/Wikipedia:Alternative_text_for_images">those given
-by Wikipedia</a>.</p>
-<h2><a href="https://intelligentsystems.eee.ntu.edu.sg/cpisrg/smart_manufacturing/AGV.html">AGV Scheduling of Material Handling Sytems</a></h2>
-<p>When placing large amounts of raw html, you should use a raw block instead of
-<tt>{{inline html escaping}}</tt>. As well as cleaner syntax, raw blocks will avoid
-having <tt>&lt;p&gt;</tt> tags in the wrong places.</p>
-<div class="codeblock">
-<div class="blocktitle">Raw block syntax</div>
-<div class="blockcontent"><pre>
-~~~
-{}{raw}
-Any text here will be copied straight to the output file without processing.
-~~~
-</pre></div></div>
+<h2>AGV Scheduling of Material Handling Sytems <a href="https://intelligentsystems.eee.ntu.edu.sg/cpisrg/smart_manufacturing/AGV.html">Find here</a></h2>
+<div class="infoblock">
+<div class="blockcontent">
+<p>With the existence of a mini-line manufacturing system located in DELTA-NTU corporation lab and the corresponding simulation in the software Visual Components, 
+we would like to connect the simulated system with the reality via OPC-UA communication protocol. On the one hand, the simulated systems in Visual Components can detect the change of variable (I/O s) 
+values and understand the current condition of the real manufacturing system, such as the sensor information of machine will tell the location of the processed product. On the other hand, 
+the simulated system can change the value of control variables to start or stop the operation of machines. After all the test of connection for all components is finished, the manufacturing line system
+will be set in the manual mode and then the scheduled control strategy will be applied. </p>
+</div></div>
 <h2>Hardware in the loop Simulation of Impact Line </h2>
+<table class="imgtable"><tr><td>
+<img src="./hardware.jpg" alt="hardware" width="650px" height="400px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<div class="infoblock">
+<div class="blockcontent">
+<p>There will be one Automated Guided Vehicle (AGV) to load Printed Circuit Boards (PCBs) with a metal bottom casing onto the starting point. Next, at the Precision, Pick Object, Positioning (PPOP) 
+station, components and then the upper cover will be placed onto the PCB. At the next station, the Automated Optical Inspection (AOI), the cased item will be flipped over and there is an inspection 
+camera to make sure the parts have been positioned appropriately. When the inspection has been passed, the item is sent to the next station by the smart transporter. However, if the inspection fails, 
+then this smart transporter will move the failed product to a drop off point. Finally, the laser soldering will solder the components to the PCB and the product is achieved. </p>
+</div></div>
+<h2>Including other demo videos</h2>
 <div class="codeblock">
 <div class="blockcontent"><pre>
-There will be one Automated Guided Vehicle (AGV) to load Printed Circuit Boards
-(PCBs) with a metal bottom casing onto the starting point. Next, at the Precision,
-Pick Object, Positioning (PPOP) station, components and then the upper cover
-will be placed onto the PCB. At the next station, the Automated Optical Inspection (AOI),
-the cased item will be flipped over and there is an inspection camera to make
-sure the parts have been positioned appropriately. When the inspection has been
-passed, the item is sent to the next station by the smart transporter.
-However, if the inspection fails, then this smart transporter will move the
-failed product to a drop off point. Finally, the laser soldering will solder
-the components to the PCB and the product is achieved.
+To be added from Youtube
 </pre></div></div>
-<p>(<a href="mailto:jacobm@stanford.edu">Let me know</a> if you need better support for your
-language.)</p>
-<h2>Including other files</h2>
-<p>The line</p>
-<div class="codeblock">
-<div class="blockcontent"><pre>
-#include{otherfile.jemdoc}
-</pre></div></div>
-<p>will include the contents of <tt>otherfile.jemdoc</tt> as if the contents were actually
-in the ordinary input file (that is, with full jemdoc substitutions).
-The line</p>
-<div class="codeblock">
-<div class="blockcontent"><pre>
-#includeraw{otherfile.html}
-</pre></div></div>
-<p>will copy the contents of <tt>otherfile.html</tt> verbatim to the current position in
-the output file (that is, without any jemdoc substitutions).</p>
-<h2>Other packages</h2>
-<ul>
-<li><p><a href="http://www.polytekniker.dk/about.html">Jacob Grunnet</a> has written
-<a href="http://bibover.polytekniker.dk">Bibover</a>, a bibtex reference extension for
-jemdoc.</p>
-</li>
-<li><p><a href="http://www.seas.upenn.edu/~nghiem/">Truong Nghiem</a> has written a
-<a href="http://www.seas.upenn.edu/~nghiem/software.html">filter for exporting
-references from JabRef to
-jemdoc</a>.</p>
-</li>
-</ul>
 <div id="footer">
 <div id="footer-text">
-Page generated 2020-11-17 13:47:49 Malay Peninsula Standard Time, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2020-11-17 16:31:42 Malay Peninsula Standard Time, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
