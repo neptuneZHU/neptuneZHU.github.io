@@ -1,0 +1,48 @@
+# jemdoc: menu{MENU}{extra.html}
+= Projects
+
+== [https://intelligentsystems.eee.ntu.edu.sg/cpisrg/smart_manufacturing/SMS.html Scheduling of Manufaturing Systems]
+
+~~~
+\~~~
+Establishing 3D components models of the production system, such as robots, conveyors, sensors, and process machines in the Visual Components simulation environment. 
+Then the reconfigurable controller of the manufacturing line system based on the discrete event framework will be applied on it to verify the correctness of the controller 
+and evaluate the system's performance for the scheduled production order. Under the ideal situation, all the raw materials in the manufacturing line systems are supposed to be infinite.
+But in reality, it needs the help of materials handling system and (AGV) Automatically Guided Vehicle fleet management system to complete the supply, this part can be implemented in the 
+simulated system as well. Our team members already had the preliminary results about the simulation of a mini-line assembling system and tested the connection with the controller generated 
+software according to the product work plan.
+\~~~
+~~~
+
+
+== [https://intelligentsystems.eee.ntu.edu.sg/cpisrg/smart_manufacturing/AGV.html AGV Scheduling of Material Handling Sytems]
+
+~~~
+{Raw block syntax}{}
+\~~~
+\{}{raw}
+Any text here will be copied straight to the output file without processing.
+\~~~
+~~~
+
+== Hardware in the loop Simulation of Impact Line 
+
+~~~
+{}{}
+There will be one Automated Guided Vehicle (AGV) to load Printed Circuit Boards (PCBs) with a metal bottom casing onto the starting point. Next, at the Precision, Pick Object, Positioning (PPOP) 
+station, components and then the upper cover will be placed onto the PCB. At the next station, the Automated Optical Inspection (AOI), the cased item will be flipped over and there is an inspection 
+camera to make sure the parts have been positioned appropriately. When the inspection has been passed, the item is sent to the next station by the smart transporter. However, if the inspection fails, 
+then this smart transporter will move the failed product to a drop off point. Finally, the laser soldering will solder the components to the PCB and the product is achieved. 
+~~
+
+== Including other demo videos
+
+~~~
+{}{}
+To be added from Youtube
+~~~
+
+~~~
+{}{}
+\#includeraw{otherfile.html}
+~~~

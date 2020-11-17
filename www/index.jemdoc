@@ -1,0 +1,26 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+
+~~~
+{}{img_left}{./photo.jpg}{photo}{150px}{200px}{}
+= Yuting Zhu -- 朱雨婷
+School of Electrical and Electronic Engineering\n
+([yuting002@e.ntu.edu.sg])\n
+
+[https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&gmla=AJsN-F6XSbnPzcZg4_xJr-_oWopMX6DX0NhYo8etawAIhCCBLS7d-vdVWjCbZgM9DyJeO6NuYIbqpNBUlN5NNtHTVgUxrBHXEJYNQnOdYsLHpBjb3ZViBRQ&user=ZlzymrMAAAAJ Google Scholar],[https://www.researchgate.net/profile/Yuting_Zhu13 ResearchGate], [https://github.com/neptuneZHU Github] \n
+~~~
+
+~~~
+== Goals
+- Graduate successfully from Nanyang Technological University
+- Publish paper in top journals
+- Become a volunteer in Africa for a period of time
+- Find a job in the smart manufacturing industry as a data scientist
+~~~
+
+~~~
+== Learning Records
+- Distributed Control of Networked Discrete Event Systems
+- Timed Finite State Automata
+- Data Structure & Algorithm
+- Machine Learning & Data Science
+~~~

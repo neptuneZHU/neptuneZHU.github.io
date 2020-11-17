@@ -1,0 +1,34 @@
+# jemdoc: menu{MENU}{using.html}
+= Publications
+
+
+
+== Journals
+~~~
+{}{}
+1. Lin, L., Zhu, Y., & Su, R. (2020). Synthesis of covert actuator attackers for free. DISCRETE EVENT DYNAMIC SYSTEMS-THEORY AND APPLICATIONS.
+2. Yang, F., Gao, K., Simon, I. W., Zhu, Y., & Su, R. (2018). Decomposition methods for manufacturing system scheduling: a survey. IEEE/CAA Journal of Automatica Sinica, 5(2), 389-400.
+~~~
+
+
+== Conferences
+
+~~~
+{}{}
+1. Zhu, Y., Lin, L., Ware, S. and Su, R. _Supervisor synthesis for networked discrete event systems with communication delays and lossy channels._ In 2019 IEEE 58th Conference on Decision and Control (CDC) (pp. 6730-6735). 
+2. Zhu, Y., Lin, L. and Su, R. Supervisor obfuscation against actuator enablement attack. In 2019 18th European Control Conference (ECC) (pp. 1760-1765).
+3. Rashidinejad, A., Wetzels, B., Reniers, M., Lin, L., Zhu, Y., & Su, R. Supervisory control of discrete-event systems under attacks: an overview and outlook. In 2019 18th European Control Conference (ECC) (pp. 1732-1739).
+4. Lin, L., Zhu, Y., & Su, R. Towards Bounded Synthesis of Resilient Supervisors. In 2019 IEEE 58th Conference on Decision and Control (CDC) (pp. 7659-7664).
+5. Ware, S., Yang, F., Zhu, Y., Su, R., & Lin, L. (2018). An efficient method of matrix multiplication for heaps of pieces. IFAC-PapersOnLine, 51(7), 206-211.
+6. Lin, L., Su, R., Brandin, B. A., Ware, S., Zhu, Y., & Sun, Y. Synchronous Composition of Finite Interval Automata. In 2019 IEEE 15th International Conference on Control and Automation (ICCA) (pp. 578-583).
+7. Lin, L., Thuijsman, S., Zhu, Y., Ware, S., Su, R., & Reniers, M. (2019, July). Synthesis of supremal successful normal actuator attackers on normal supervisors. In 2019 American Control Conference (ACC) (pp. 5614-5619).
+~~~
+
+== eprints
+
+~~~
+{}{}
+1. Overview of Networked Supervisory Control with Imperfect Communication Channels, by Yuting Zhu and Liyong Lin and Ruochen Tai and Rong Su
+2. Networked Supervisor Synthesis Against Lossy Channels with Bounded Network Delays, , by Yuting Zhu and Liyong Lin and Ruochen Tai and Rong Su
+3. A New Modeling Framework for Networked Discrete-Event Systems", by Ruochen Tai, Liyong Lin, Yuting Zhu, Rong Su.
+~~~
